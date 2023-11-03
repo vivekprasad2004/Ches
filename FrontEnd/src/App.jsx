@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1>ChesWeb</h1>
+      <h1>App</h1>
     </>
   );
 }
