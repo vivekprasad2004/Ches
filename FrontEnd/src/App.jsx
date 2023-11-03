@@ -1,7 +1,27 @@
+import {
+  NavBar,
+  Acievement,
+  About,
+  Team,
+  Contact,
+  Home,
+  Event,
+  Footer,
+} from "./Components";
+
 function App() {
   return (
     <>
-      <h1>App</h1>
+      <div className="text-text">
+        <NavBar />
+        <Home />
+        <About />
+        <Acievement />
+        <Team />
+        <Event />
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 }
