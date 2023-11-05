@@ -9,7 +9,7 @@ function NavBar() {
 
   return (
     <>
-      <header className="w-full flex items-center py-3 fixed top-0 z-30 border-b-[1px] drop-shadow-md bg-[#f1fcee]">
+      <header className="w-full flex items-center py-3 fixed top-0 z-30 border-b-[0px] drop-shadow-md backdrop-blur-xl bg-green-800/50 ">
         <nav className="w-full flex justify-between items-center max-w-7xl mx-auto px-4">
           <a href="/">
             <img
@@ -35,9 +35,9 @@ function NavBar() {
           <div className="md:hidden flex flex-1 justify-end items-center">
             <button onClick={() => setToggle(!toggle)}>
               {toggle ? (
-                <AiOutlineClose className="text-2xl text-primary" />
+                <AiOutlineClose className="text-[2rem] text-accent font-bold" />
               ) : (
-                <AiOutlineMenu className="text-2xl text-primary" />
+                <AiOutlineMenu className="text-[2rem] text-accent font-bold" />
               )}
             </button>
 
@@ -45,7 +45,7 @@ function NavBar() {
             <div
               className={`${
                 !toggle ? "hidden" : "flex"
-              } p-8  absolute top-[5.5rem] right-0  my-2 w-full text-center z-10 rounded-xl  bg-[#f1fcee]/60 `}>
+              } p-8  absolute top-[5.4rem] right-0  my-2 w-full text-center z-10 rounded-md backdrop-blur-2xl bg-green-800/50 `}>
               <ul className="list-none flex justify-center items-start  flex-col gap-4">
                 {NavLinks.map((link) => (
                   <li
