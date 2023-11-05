@@ -9,7 +9,7 @@ function NavBar() {
 
   return (
     <>
-      <header className="w-full flex items-center py-3 fixed top-0 z-30 border-b-[0px] drop-shadow-md backdrop-blur-xl bg-green-800/50 ">
+      <header className="w-full flex items-center py-3 fixed top-0 z-30 border-b-[0px] drop-shadow-md backdrop-blur-md bg-background-900/70 ">
         <nav className="w-full flex justify-between items-center max-w-7xl mx-auto px-4">
           <a href="/">
             <img
@@ -17,7 +17,7 @@ function NavBar() {
               alt="Logo"
               width={70}
               height={70}
-              className="hover:scale-105 duration-100"
+              className="hover:scale-105 duration-300"
             />
           </a>
           <ul className="list-none hidden md:flex flex-row gap-8">
@@ -25,8 +25,8 @@ function NavBar() {
               <li
                 key={link.id}
                 className={`${
-                  active === link.title ? "text-[#50953b]" : "text-[#72cc56]"
-                } hover:text-[#7ab669] font-semibold cursor-pointer relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-accent after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center`}
+                  active === link.title ? "text-text-100" : "text-text-300"
+                } hover:text-accent-400 font-semibold cursor-pointer relative text-xl w-fit  block after:block after:content-[''] after:absolute after:h-[3px] after:bg-accent-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center`}
                 onClick={() => setActive(link.title)}>
                 <a href={`#${link.id}`}>{link.title}</a>
               </li>

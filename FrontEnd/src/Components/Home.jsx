@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 function Home() {
   return (
     <>
-      <section className="relative m-auto h-[100vh] w-full  bg-bgHero bg-cover bg-center flex justify-center ">
+      <section className="relative m-auto h-[100vh] w-full bg-bgHero bg-cover bg-no-repeat   flex justify-center ">
         <div className="absolute top-[10rem] sm:top-[13rem]  px-4  flex justify-around ">
           <div className="text-6xl max-sm:text-[3.23rem]   ">
             <h1 className="text-primary font-semibold font-NotoSans sm:flex gap-4 block">
