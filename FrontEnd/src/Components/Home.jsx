@@ -1,8 +1,8 @@
 function Home() {
   return (
     <>
-      <section className="relative w-full h-screen mx-auto">
-        <h1 className="mt-[6rem] p-10">Home</h1>
+      <section className="flex flex-col items-center justify-center h-screen">
+        <h1>Home</h1>
       </section>
     </>
   );
