@@ -25,7 +25,7 @@ function NavBar() {
               <li
                 key={link.id}
                 className={`${
-                  active === link.title ? "text-text-100" : "text-text-300"
+                  active === link.title ? "text-accent-300" : "text-text-300"
                 } hover:text-accent-400 font-semibold cursor-pointer relative text-xl w-fit  block after:block after:content-[''] after:absolute after:h-[3px] after:bg-accent-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center`}
                 onClick={() => setActive(link.title)}>
                 <a href={`#${link.id}`}>{link.title}</a>

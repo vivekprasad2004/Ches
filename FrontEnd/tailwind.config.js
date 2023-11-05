@@ -3,6 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundClip: ["hover", "focus"],
       colors: {
         text: {
           50: "#f7ebfa",
@@ -77,6 +78,7 @@ export default {
       },
       backgroundImage: {
         bgHero: "url('/src/assets/bghero.jpg')",
+        bgHeroMobile: " url('/src/assets/bgheroMobile.jpg')",
       },
     },
   },

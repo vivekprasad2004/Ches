@@ -3,22 +3,22 @@ import Typewriter from "typewriter-effect";
 function Home() {
   return (
     <>
-      <section className="relative m-auto h-[100vh] w-full bg-bgHero bg-cover bg-no-repeat   flex justify-center ">
+      <section className="relative m-auto h-[100vh] w-full bg-bgHeroMobile md:bg-bgHero bg-cover bg-no-repeat   flex justify-center ">
         <div className="absolute top-[10rem] sm:top-[13rem]  px-4  flex justify-around ">
-          <div className="text-6xl max-sm:text-[3.23rem]   ">
-            <h1 className="text-primary font-semibold font-NotoSans sm:flex gap-4 block">
-              We Are
-              <span className="text-accent font-OpenSans ">
+          <div className="text-8xl max-sm:text-[3.23rem]   ">
+            <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 font-semibold font-NotoSans sm:flex gap-4 block">
+              WE ARE
+              <span className=" font-OpenSans ">
                 <Typewriter
                   options={{ autoStart: true, loop: true }}
                   onInit={(Typewriter) => {
-                    Typewriter.typeString("Ches")
+                    Typewriter.typeString("CHES")
                       .pauseFor(1000)
                       .deleteAll()
-                      .typeString("Ches2")
+                      .typeString("CHES2")
                       .pauseFor(1000)
                       .deleteAll()
-                      .typeString("Ches3")
+                      .typeString("CHES3")
                       .pauseFor(1000)
                       .deleteAll()
                       .start();
