@@ -12,7 +12,7 @@ import {
 function App() {
   return (
     <>
-      <div className="text-text">
+      <div className="text-text bg-background">
         <NavBar />
         <Home />
         <About />
