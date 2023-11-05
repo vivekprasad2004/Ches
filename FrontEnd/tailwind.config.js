@@ -10,6 +10,13 @@ export default {
         secondary: "#d8f7cf",
         accent: "#4ed624",
       },
+      fontFamily: {
+        OpenSans: ["Open Sans", " sans-serif"],
+        NotoSans: ["Noto Sans", " sans-serif"],
+      },
+      backgroundImage: {
+        bgHero: "url('./src/assets/bghero.jpg')",
+      },
     },
   },
   plugins: [],

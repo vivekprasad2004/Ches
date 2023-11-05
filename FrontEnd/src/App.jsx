@@ -16,9 +16,10 @@ function App() {
         <NavBar />
         <Home />
         <About />
+        <Event />
         <Acievement />
         <Team />
-        <Event />
+
         <Contact />
         <Footer />
       </div>

@@ -12,7 +12,13 @@ function NavBar() {
       <header className="w-full flex items-center py-3 fixed top-0 z-30 border-b-[1px] drop-shadow-md bg-[#f1fcee]">
         <nav className="w-full flex justify-between items-center max-w-7xl mx-auto px-4">
           <a href="/">
-            <img src={ChesLogo} alt="Logo" width={75} height={75} />
+            <img
+              src={ChesLogo}
+              alt="Logo"
+              width={70}
+              height={70}
+              className="hover:scale-105 duration-100"
+            />
           </a>
           <ul className="list-none hidden md:flex flex-row gap-8">
             {NavLinks.map((link) => (
@@ -44,7 +50,7 @@ function NavBar() {
                 {NavLinks.map((link) => (
                   <li
                     key={link.id}
-                    className={`font-poppins font-semibold cursor-pointer text-xl ${
+                    className={`font-poppins font-semibold cursor-pointer text-xl hover:text-[#7ab669] ${
                       active === link.title
                         ? "text-[#50953b]"
                         : "text-[#72cc56]"
