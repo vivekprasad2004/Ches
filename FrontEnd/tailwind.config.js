@@ -15,7 +15,7 @@ export default {
         NotoSans: ["Noto Sans", " sans-serif"],
       },
       backgroundImage: {
-        bgHero: "url('./src/assets/bghero.jpg')",
+        bgHero: "url('/src/assets/bghero.jpg')",
       },
     },
   },
