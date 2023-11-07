@@ -1,39 +1,40 @@
+/* eslint-disable react-refresh/only-export-components */
 import Typewriter from "typewriter-effect";
+import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
+import { motion } from "framer-motion";
+import { fadeIn } from "../utils/motion";
 
 function Home() {
   return (
     <>
-      <section className="relative m-auto h-[100vh] w-full bg-bgHeroMobile md:bg-bgHero bg-cover bg-no-repeat   flex justify-center ">
-        <div className="absolute top-[10rem] sm:top-[13rem]  px-4  flex justify-around ">
-          <div className="text-[5rem] max-sm:text-[3.23rem]   ">
-            <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 font-semibold font-NotoSans sm:flex gap-4 block">
-              WE ARE
-              <span className=" font-OpenSans ">
-                <Typewriter
-                  options={{ autoStart: true, loop: true }}
-                  onInit={(Typewriter) => {
-                    Typewriter.typeString("CHES")
-                      .pauseFor(1000)
-                      .deleteAll()
-                      .typeString("Chemical Engineering society")
-                      .pauseFor(1000)
-                      .deleteAll()
-                      .typeString("AIChE SVNIT Student Chapter")
-                      .pauseFor(1000)
-                      .deleteAll()
-                      .typeString("The Future")
-                      .pauseFor(1000)
-                      .deleteAll()
-                      .start();
-                  }}
-                />
-              </span>
-            </h1>
-          </div>
+      <section className="relative w-full h-screen mx-auto">
+        <div className="absolute top-[7rem] w-full">
+          <motion.div variants={fadeIn("left", "tween", 0.1, 1)}>
+            <h3 className={styles.sectionHeadText}>We Are</h3>
+            <p className="mt-2 text-4xl sm:text-6xl max-w-3xl ">
+              <Typewriter
+                options={{
+                  strings: [
+                    " ChES",
+                    "Chemical Engineering Society.",
+                    "AIChE SVNIT Student Chapter.",
+                    "The Future",
+                  ],
+                  pauseFor: 1500,
+                  delay: 130,
+                  deleteSpeed: 30,
+
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </p>
+          </motion.div>
         </div>
       </section>
     </>
   );
 }
 
-export default Home;
+export default SectionWrapper(Home, "Home");

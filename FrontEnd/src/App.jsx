@@ -13,8 +13,10 @@ function App() {
   return (
     <>
       <div className="text-text-100 bg-background-950">
-        <NavBar />
-        <Home />
+        <div className="bg-herobg bg-cover bg-no-repeat bg-center">
+          <NavBar />
+          <Home />
+        </div>
         <About />
         <Event />
         <Acievement />

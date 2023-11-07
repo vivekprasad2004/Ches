@@ -82,6 +82,7 @@ export default {
       backgroundImage: {
         bgHero: "url('/src/assets/bgHero.jpg')",
         bgHeroMobile: "url('/src/assets/bgHeroMobile.jpg')",
+        herobg: "url('/src/assets/herobg.png')",
       },
     },
   },

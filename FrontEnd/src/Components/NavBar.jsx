@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { ChesLogo } from "..";
 import { NavLinks } from "../Constants";
 import { useState } from "react";
@@ -9,7 +10,7 @@ function NavBar() {
 
   return (
     <>
-      <header className="w-full flex items-center py-3 fixed top-0 z-30 border-b-[0px] drop-shadow-md backdrop-blur-md bg-background-900/70 ">
+      <header className="w-full flex items-center py-3 fixed top-0 z-30 border-b-[0px] drop-shadow-md backdrop-blur-[10px] bg-background-900/70 ">
         <nav className="w-full flex justify-between items-center max-w-7xl mx-auto px-4">
           <a href="/">
             <img
@@ -20,6 +21,7 @@ function NavBar() {
               className="hover:scale-105 duration-300"
             />
           </a>
+
           <ul className="list-none hidden md:flex flex-row gap-8">
             {NavLinks.map((link) => (
               <li
@@ -45,8 +47,8 @@ function NavBar() {
             <div
               className={`${
                 !toggle ? "hidden" : "flex"
-              } p-8  absolute top-[5.4rem] right-0  my-2 w-full text-center z-10 rounded-md backdrop-blur-2xl bg-background-950/80 `}>
-              <ul className="list-none flex justify-center items-start  flex-col gap-4">
+              } p-8  absolute top-[5.4rem] right-0  my-2 w-full text-center z-10 rounded-md h-screen drop-shadow-md backdrop-blur-[10px] bg-background-950/90  `}>
+              <ul className="list-none flex  items-start  flex-col gap-4">
                 {NavLinks.map((link) => (
                   <li
                     key={link.id}
@@ -70,5 +72,4 @@ function NavBar() {
     </>
   );
 }
-
 export default NavBar;
