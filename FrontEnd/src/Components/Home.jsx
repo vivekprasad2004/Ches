@@ -5,7 +5,7 @@ function Home() {
     <>
       <section className="relative m-auto h-[100vh] w-full bg-bgHeroMobile md:bg-bgHero bg-cover bg-no-repeat   flex justify-center ">
         <div className="absolute top-[10rem] sm:top-[13rem]  px-4  flex justify-around ">
-          <div className="text-8xl max-sm:text-[3.23rem]   ">
+          <div className="text-[5rem] max-sm:text-[3.23rem]   ">
             <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 font-semibold font-NotoSans sm:flex gap-4 block">
               WE ARE
               <span className=" font-OpenSans ">
@@ -15,10 +15,13 @@ function Home() {
                     Typewriter.typeString("CHES")
                       .pauseFor(1000)
                       .deleteAll()
-                      .typeString("CHES2")
+                      .typeString("Chemical Engineering society")
                       .pauseFor(1000)
                       .deleteAll()
-                      .typeString("CHES3")
+                      .typeString("AIChE SVNIT Student Chapter")
+                      .pauseFor(1000)
+                      .deleteAll()
+                      .typeString("The Future")
                       .pauseFor(1000)
                       .deleteAll()
                       .start();

@@ -71,14 +71,17 @@ export default {
           950: "#091405",
         },
       },
+      boxShadow: {
+        card: "0px 35px 120px -15px #211e35",
+      },
 
       fontFamily: {
         OpenSans: ["Open Sans", " sans-serif"],
         NotoSans: ["Noto Sans", " sans-serif"],
       },
       backgroundImage: {
-        bgHero: "url('/src/assets/bghero.jpg')",
-        bgHeroMobile: " url('/src/assets/bgheroMobile.jpg')",
+        bgHero: "url('/src/assets/bgHero.jpg')",
+        bgHeroMobile: "url('/src/assets/bgHeroMobile.jpg')",
       },
     },
   },

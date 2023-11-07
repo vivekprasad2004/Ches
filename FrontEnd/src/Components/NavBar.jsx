@@ -45,15 +45,15 @@ function NavBar() {
             <div
               className={`${
                 !toggle ? "hidden" : "flex"
-              } p-8  absolute top-[5.4rem] right-0  my-2 w-full text-center z-10 rounded-md backdrop-blur-2xl bg-green-800/50 `}>
+              } p-8  absolute top-[5.4rem] right-0  my-2 w-full text-center z-10 rounded-md backdrop-blur-2xl bg-background-950/80 `}>
               <ul className="list-none flex justify-center items-start  flex-col gap-4">
                 {NavLinks.map((link) => (
                   <li
                     key={link.id}
-                    className={`font-poppins font-semibold cursor-pointer text-xl hover:text-[#7ab669] ${
+                    className={`font-poppins font-semibold cursor-pointer text-xl hover:text-accent-400  ${
                       active === link.title
-                        ? "text-[#50953b]"
-                        : "text-[#72cc56]"
+                        ? "text-accent-300"
+                        : "text-text-300"
                     }`}
                     onClick={() => {
                       setToggle(!toggle);
