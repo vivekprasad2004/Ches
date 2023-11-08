@@ -1,7 +1,7 @@
 function AppEureka() {
   return (
     <>
-      <h1>AppEureka</h1>
+      <h1>Hi</h1>
     </>
   );
 }

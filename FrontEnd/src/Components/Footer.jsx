@@ -72,8 +72,7 @@ function Footer() {
           <hr className="border-accent-600" />
 
           <p className="text-text-200 text-sm mt-4">
-            © {year} AIChE ChES Sardar Vallabhbhai National Institute of
-            Technology, Surat
+            © {year} AIChE ChES SVNIT. All rights reserved.
           </p>
         </div>
       </footer>

@@ -16,9 +16,7 @@ function NavBar() {
             <img
               src={ChesLogo}
               alt="Logo"
-              width={65}
-              height={65}
-              className="hover:scale-105 duration-300"
+              className="aspect-[4/3] h-20 hover:scale-105 duration-300"
             />
           </a>
 
