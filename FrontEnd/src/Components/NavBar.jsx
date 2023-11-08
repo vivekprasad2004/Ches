@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import { ChesLogo } from "..";
+import { ChesLogo } from "../assets";
 import { NavLinks } from "../Constants";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -16,8 +16,8 @@ function NavBar() {
             <img
               src={ChesLogo}
               alt="Logo"
-              width={70}
-              height={70}
+              width={65}
+              height={65}
               className="hover:scale-105 duration-300"
             />
           </a>
@@ -37,9 +37,9 @@ function NavBar() {
           <div className="md:hidden flex flex-1 justify-end items-center">
             <button onClick={() => setToggle(!toggle)}>
               {toggle ? (
-                <AiOutlineClose className="text-[2rem] text-accent font-bold" />
+                <AiOutlineClose className="text-[1.7rem] text-accent font-bold" />
               ) : (
-                <AiOutlineMenu className="text-[2rem] text-accent font-bold" />
+                <AiOutlineMenu className="text-[1.7rem] text-accent font-bold" />
               )}
             </button>
 

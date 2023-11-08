@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import { SectionWrapper } from "../hoc";
-import { SVNITLOGO } from "..";
+import { SVNITLOGO } from "../assets";
 import {
   FaFacebook,
   FaInstagram,
@@ -60,7 +60,7 @@ function Footer() {
               href="https://www.youtube.com/@aichechessvnit7048"
               target="_blank"
               rel="noreferrer">
-              <FaYoutube className="text-2xl text-text-300 hover:text-accent-400" />
+              <FaYoutube className="text-2xl text-text-200 hover:text-accent-400" />
             </a>
             <a
               href="https://www.google.com/maps/place/Sardar+Vallabhbhai+National+Institute+of+Technology,+SVNIT./@21.1663287,72.7642292,15z/data=!4m10!1m2!2m1!1ssvnit+location!3m6!1s0x3be04dec8b56fdf3:0x423b99085d26d1f9!8m2!3d21.1663287!4d72.7832836!15sCg5zdm5pdCBsb2NhdGlvbpIBCnVuaXZlcnNpdHngAQA!16zL20vMDZscjIz?entry=ttu"
