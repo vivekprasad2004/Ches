@@ -80,9 +80,8 @@ export default {
         NotoSans: ["Noto Sans", " sans-serif"],
       },
       backgroundImage: {
-        bgHero: "url('/src/assets/bgHero.jpg')",
-        bgHeroMobile: "url('/src/assets/bgHeroMobile.jpg')",
         herobg: "url('/src/assets/herobg.png')",
+        herobgMobile: "url('/src/assets/herobgMobile.png')",
       },
     },
   },

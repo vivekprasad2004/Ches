@@ -12,8 +12,8 @@ import {
 function App() {
   return (
     <>
-      <div className="text-text-100 bg-background-950">
-        <div className="bg-herobg bg-cover bg-no-repeat bg-center">
+      <div className="text-text-100 bg-background-950 font-OpenSans">
+        <div className=" bg-herobgMobile sm:bg-herobg bg-cover bg-no-repeat bg-center">
           <NavBar />
           <Home />
         </div>

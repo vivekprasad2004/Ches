@@ -66,7 +66,7 @@ function Contact() {
       <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden ">
         <motion.div
           variants={fadeIn("left", "tween", 0.2, 1)}
-          className="flex-[0.75] bg-background-900/70 backdrop-blur-md p-2 sm:p-6 rounded-2xl">
+          className="flex-[0.75] bg-background-900/70 backdrop-blur-md py-4 p-2 sm:p-6 rounded-2xl">
           <p className={styles.sectionSubText}>Get in touch</p>
           <h3 className={styles.sectionHeadText}>Contact.</h3>
           <form
@@ -100,7 +100,7 @@ function Contact() {
             <label className="flex flex-col">
               <span className="text-white font-medium mb-4">Your Message</span>
               <textarea
-                rows={7}
+                rows={4}
                 name="message"
                 value={form.message}
                 onChange={handleChange}
@@ -111,7 +111,7 @@ function Contact() {
 
             <button
               type="submit"
-              className="bg-secondary-600 py-3 px-8 rounded-xl outline-none w-fit text-text-100 font-bold shadow-md ">
+              className="bg-secondary-600 py-3 px-8 rounded-xl outline-none w-fit text-text-100 font-bold shadow-md hover:bg-secondary-800">
               {loading ? "Sending..." : "Send"}
             </button>
           </form>
