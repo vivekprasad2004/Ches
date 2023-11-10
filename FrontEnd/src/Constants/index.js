@@ -65,7 +65,27 @@ export const Events = [
 export const Achievements = [
   {
     content:
-      "AIChE-ChES SVNIT received the Outstanding Student Chapter Award for the year 2021-2022. This prestigious award is given annually to the top student chapters worldwide that demonstrate an exceptional level of participation, enthusiasm, program quality, professionalism, and engagement within the university and community on a global scale. SRC 2022 was a remarkable event featuring engaging sessions and interactive talks with esteemed guest speakers. The conference also hosted captivating paper and poster competitions, Chem-EJeopardy, Techtonic, Chem-E-Car,workshops, and K-12 competitions.We proudly secured the second position in two events at SRC 2022,namely the Student Poster Competition and Techtonic.Additionally, we qualified for the semifinals of Chem-E-Jeopardy, one of the most fiercely competitive events of SRC 2022.",
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+  },
+  {
+    content:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+  },
+  {
+    content:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+  },
+  {
+    content:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+  },
+  {
+    content:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+  },
+  {
+    content:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
   },
 ];
 export const Teams = [
