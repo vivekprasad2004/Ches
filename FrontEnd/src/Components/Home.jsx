@@ -10,7 +10,7 @@ function Home() {
     <>
       <section className="relative w-full h-screen mx-auto">
         <div className="absolute top-[7rem] w-full">
-          <motion.div variants={fadeIn("left", "tween", 0.1, 1)}>
+          <motion.div variants={fadeIn("right", "tween ", 0.2, 1)}>
             <h3 className="text-text-100 font-bold md:text-[75px] sm:text-[60px] text-[55px] font-OpenSans">
               We Are
             </h3>

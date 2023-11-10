@@ -1,8 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
-import { ChesLogo } from "../assets";
+import { ChesLogo, menu, close } from "../assets";
 import { NavLinks } from "../Constants";
 import { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 function NavBar() {
   const [active, setActive] = useState("");
@@ -16,7 +15,7 @@ function NavBar() {
             <img
               src={ChesLogo}
               alt="Logo"
-              className="aspect-[4/3] h-20 hover:scale-105 duration-300"
+              className="w-[8rem] h-[4rem] hover:scale-105 duration-300"
             />
           </a>
 
@@ -33,19 +32,18 @@ function NavBar() {
             ))}
           </ul>
           <div className="md:hidden flex flex-1 justify-end items-center">
-            <button onClick={() => setToggle(!toggle)}>
-              {toggle ? (
-                <AiOutlineClose className="text-[1.7rem] text-accent font-bold" />
-              ) : (
-                <AiOutlineMenu className="text-[1.7rem] text-accent font-bold" />
-              )}
-            </button>
+            <img
+              src={toggle ? close : menu}
+              alt="menu"
+              className="w-6 h-6 cursor-pointer object-contain"
+              onClick={() => setToggle(!toggle)}
+            />
 
             {/* mobile menu */}
             <div
               className={`${
                 !toggle ? "hidden" : "flex"
-              } p-8  absolute top-[5.4rem] right-0  my-2 w-full text-center z-10 rounded-md h-screen drop-shadow-md backdrop-blur-[10px] bg-background-950/90  `}>
+              } p-8  absolute top-[5rem] right-0  my-2 w-full text-center z-10 rounded-md h-screen drop-shadow-md backdrop-blur-[10px] bg-background-950/90  `}>
               <ul className="list-none flex  items-start  flex-col gap-4">
                 {NavLinks.map((link) => (
                   <li
