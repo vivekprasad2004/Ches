@@ -8,6 +8,7 @@ import {
   FaYoutube,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+// import { Developers } from "../Constants";
 const year = new Date().getFullYear();
 
 function Footer() {

@@ -1,3 +1,5 @@
+import { ChesLogo, SVNITLOGO } from "../assets";
+
 export const NavLinks = [
   {
     id: "Home",
@@ -8,7 +10,7 @@ export const NavLinks = [
     title: "About",
   },
   {
-    id: "Achievements",
+    id: "Achievement",
     title: "Achievements",
   },
   {
@@ -65,31 +67,133 @@ export const Events = [
 export const Achievements = [
   {
     content:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+      "lorem ipsum  sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    img: ChesLogo,
+  },
+  {
+    content:
+      "lorem  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+
+    img: SVNITLOGO,
+  },
+  {
+    content:
+      "lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+
+    img: ChesLogo,
+  },
+  {
+    content:
+      " ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+
+    img: SVNITLOGO,
   },
   {
     content:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+
+    img: ChesLogo,
   },
   {
     content:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-  },
-  {
-    content:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-  },
-  {
-    content:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-  },
-  {
-    content:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+
+    img: SVNITLOGO,
   },
 ];
 export const Teams = [
   {
-    Alumni: " text ",
+    id: 1,
+    name: "WebDevelopment Comitee",
+    Head: "Divyansh Verma",
+    Linkedin:
+      "https://www.linkedin.com/company/chemical-engineering-society-svnit/mycompany/",
+  },
+
+  {
+    id: 2,
+    name: "Technical Committee",
+    Head: "Dev Sharma",
+    Linkedin:
+      "https://www.linkedin.com/company/chemical-engineering-society-svnit/mycompany/",
+  },
+
+  {
+    id: 3,
+    name: "Managerial Committee",
+    Head: "Aswin Nair",
+    Linkedin:
+      "https://www.linkedin.com/company/chemical-engineering-society-svnit/mycompany/",
+  },
+
+  {
+    id: 4,
+    name: "Public Relations Committee",
+    Head: "Saumya Jain",
+    Linkedin:
+      "https://www.linkedin.com/company/chemical-engineering-society-svnit/mycompany/",
+  },
+
+  {
+    id: 5,
+    name: "Social Media Committee",
+    Head: "Simran Hirekhan",
+    Linkedin:
+      "https://www.linkedin.com/company/chemical-engineering-society-svnit/mycompany/",
+  },
+
+  {
+    id: 6,
+    name: "Design and Video Committee",
+    Head: " Ranjana Soni",
+    Linkedin:
+      "https://www.linkedin.com/company/chemical-engineering-society-svnit/mycompany/",
+  },
+
+  {
+    id: 7,
+    name: "Documentation Committee",
+    Head: "Sarita Meena",
+    Linkedin:
+      "https://www.linkedin.com/company/chemical-engineering-society-svnit/mycompany/",
+  },
+
+  {
+    id: 8,
+    name: "Finance and Sponsorship ",
+    Head: "Kushal Doshi",
+    Linkedin:
+      "https://www.linkedin.com/company/chemical-engineering-society-svnit/mycompany/",
+  },
+
+  {
+    id: 9,
+    name: "K-12 Outreach Committee",
+    Head: "Rupesh Yadav",
+    Linkedin:
+      "https://www.linkedin.com/company/chemical-engineering-society-svnit/mycompany/",
+  },
+];
+
+export const Developers = [
+  {
+    id: 1,
+    name: "Archit Kulshrestha",
+  },
+  {
+    id: 2,
+    name: "Abhishek Sharma",
+  },
+  {
+    id: 3,
+    name: "Abhay Dubey",
+  },
+  {
+    id: 4,
+    name: "Shikhar Shukla",
+  },
+  {
+    id: 5,
+    name: "Lokesh Sharma",
   },
 ];

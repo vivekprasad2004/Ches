@@ -3,16 +3,15 @@
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { Achievements } from "../constants";
+import { Achievements } from "../Constants";
 import Tilt from "react-parallax-tilt";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import { ChesLogo } from "../assets";
 
-const ServiceCard = ({ content, index }) => {
+const AchievementCard = ({ content, index, img }) => {
   return (
     <Tilt
-      className="sm:w-[280px] w-full"
+      className="w-[90%] sm:w-[280px] "
       tiltMaxAngleX={20}
       scale={1.02}
       tiltMaxAngleY={20}
@@ -22,7 +21,7 @@ const ServiceCard = ({ content, index }) => {
         className="w-full  p-[1px] rounded-[10px]  ">
         <div className=" hover:shadow-lg hover:shadow-text-500/60  backdrop-blur-[10px] bg-background-900/70 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
           <img
-            src={ChesLogo}
+            src={img}
             alt="About Icon"
             className="w-16 h-16 object-contain"
           />
@@ -34,7 +33,7 @@ const ServiceCard = ({ content, index }) => {
   );
 };
 
-const About = () => {
+const Achievement = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -49,15 +48,11 @@ const About = () => {
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-8">
         {Achievements.map((Achievements, index) => (
-          <ServiceCard
-            key={Achievements.content}
-            index={index}
-            {...Achievements}
-          />
+          <AchievementCard key={index} index={index} {...Achievements} />
         ))}
       </div>
     </>
   );
 };
 
-export default SectionWrapper(About, "about");
+export default SectionWrapper(Achievement, "Achievement");
