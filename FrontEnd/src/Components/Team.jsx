@@ -11,7 +11,7 @@ import FacultyCard from "./FacultyCard";
 function Team() {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant(0.75)}>
         <h2 className={styles.sectionHeadText}>The Team.</h2>
       </motion.div>
       <motion.p
