@@ -102,13 +102,13 @@ export const Achievements = [
   },
 ];
 export const Teams = [
-  {
-    id: 1,
-    name: "WebDevelopment Comitee",
-    Head: "Divyansh Verma",
-    Linkedin:
-      "https://www.linkedin.com/company/chemical-engineering-society-svnit/mycompany/",
-  },
+  // {
+  //   id: 1,
+  //   name: "WebDevelopment Comitee",
+  //   Head: "Divyansh Verma",
+  //   Linkedin:
+  //     "https://www.linkedin.com/company/chemical-engineering-society-svnit/mycompany/",
+  // },
 
   {
     id: 2,

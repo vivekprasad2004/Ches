@@ -17,7 +17,7 @@ const AchievementCard = ({ content, index, img }) => {
       tiltMaxAngleY={20}
       transitionSpeed={1950}>
       <motion.div
-        variants={fadeIn("right", "spring", index * 0.2, 0.5)}
+        variants={fadeIn("right", "spring", index * 0.4, 0.5)}
         className="w-full  p-[1px] rounded-[10px]  ">
         <div className=" hover:shadow-lg hover:shadow-text-500/60  backdrop-blur-[10px] bg-background-900/70 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
           <img
@@ -36,11 +36,11 @@ const AchievementCard = ({ content, index, img }) => {
 const Achievement = () => {
   return (
     <>
-      <motion.div variants={textVariant(0.75)}>
+      <motion.div variants={textVariant(0.4)}>
         <h2 className={styles.sectionHeadText}>Achievements.</h2>
       </motion.div>
       <motion.p
-        variants={fadeIn("right", "tween", 0.1, 1)}
+        variants={fadeIn("right", "tween", 0.1, 0.55)}
         className="mt-4  max-w-3xl leading-[30px]">
         lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

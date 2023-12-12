@@ -11,11 +11,11 @@ import FacultyCard from "./FacultyCard";
 function Team() {
   return (
     <>
-      <motion.div variants={textVariant(0.75)}>
+      <motion.div variants={textVariant(0.3)}>
         <h2 className={styles.sectionHeadText}>The Team.</h2>
       </motion.div>
       <motion.p
-        variants={fadeIn("right", "tween", 0.1, 0.5)}
+        variants={fadeIn("right", "tween", 0.1, 0.4)}
         className="mt-4  max-w-3xl leading-[30px]">
         lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -35,7 +35,7 @@ function Team() {
             tiltMaxAngleY={10}
             transitionSpeed={1950}>
             <motion.div
-              variants={fadeIn("right", "spring", 0.5, 1)}
+              variants={fadeIn("right", "spring", 0.5, 0.75)}
               className="w-full  rounded-[10px]  ">
               <div className="w-[300px] h-[120px]  hover:shadow-text-500/70 backdrop-blur-[10px] bg-background-900/70 rounded-[20px] text-[#f7ebfa]  p-4 hover:shadow-lg">
                 <div className=" font-semibold text-lg ">{team.name}</div>

@@ -21,7 +21,7 @@ const FacultyCard = () => {
           <motion.div
             variants={fadeIn("right", "spring", 0.5, 0.75)}
             className="w-full  p-[1px] rounded-[10px]  ">
-            <div className=" hover:shadow-lg hover:shadow-text-500/60  backdrop-blur-[10px] bg-background-900/70 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+            <div className=" hover:shadow-lg hover:shadow-text-500/60  backdrop-blur-[10px] bg-background-900/70 rounded-[20px] py-6 px-6 min-h-[280px] flex justify-evenly items-center flex-col">
               <img
                 src={Jignasa}
                 alt="About Icon"
@@ -48,7 +48,7 @@ const FacultyCard = () => {
           <motion.div
             variants={fadeIn("right", "spring", 0.5, 0.75)}
             className="w-full  p-[1px] rounded-[10px]  ">
-            <div className=" hover:shadow-lg hover:shadow-text-500/60  backdrop-blur-[10px] bg-background-900/70 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+            <div className=" hover:shadow-lg hover:shadow-text-500/60  backdrop-blur-[10px] bg-background-900/70 rounded-[20px] py-5 px-6 min-h-[280px] flex justify-evenly items-center flex-col">
               <img
                 src={Rathore}
                 alt="About Icon"
@@ -75,7 +75,7 @@ const FacultyCard = () => {
           <motion.div
             variants={fadeIn("right", "spring", 0.5, 0.75)}
             className="w-full  p-[1px] rounded-[10px]  ">
-            <div className=" hover:shadow-lg hover:shadow-text-500/60  backdrop-blur-[10px] bg-background-900/70 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+            <div className=" hover:shadow-lg hover:shadow-text-500/60  backdrop-blur-[10px] bg-background-900/70 rounded-[20px] py-5 px-6 min-h-[280px] flex justify-evenly items-center flex-col">
               <img
                 src={Sundar}
                 alt="About Icon"

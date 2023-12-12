@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="Eureka" element={<AppEureka />} />
+        <Route path="eureka" element={<AppEureka />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
