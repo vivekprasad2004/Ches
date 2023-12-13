@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import { ChesLogo, menu, close } from "../assets";
+import { ChesLogo, menu, close,Eureka } from "../assets";
 import { NavLinks } from "../Constants";
 import { useState } from "react";
 
@@ -13,9 +13,9 @@ function NavBar() {
         <nav className="w-full flex justify-between items-center max-w-7xl mx-auto px-4">
           <a href="/">
             <img
-              src={ChesLogo}
+              src={Eureka}
               alt="Logo"
-              className="w-[8rem] h-[4rem] hover:scale-105 duration-300"
+              className="w-[6rem] h-[2rem] hover:scale-105 duration-300"
             />
           </a>
 
